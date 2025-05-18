@@ -1,0 +1,195 @@
+<svg viewBox="0 0 800 1650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景を白に設定 -->
+  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+  
+  <!-- スタイル定義 -->
+  <style>
+    .box {
+      fill: white;
+      stroke: #1a2f5a;
+      stroke-width: 2;
+      rx: 10;
+      ry: 10;
+    }
+    .arrow {
+      stroke: #1a2f5a;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+    .divider {
+      stroke: #1a2f5a;
+      stroke-width: 2;
+    }
+    .title {
+      font-family: sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      fill: #1a2f5a;
+      text-anchor: middle;
+    }
+    .step-title {
+      font-family: sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      fill: #1a2f5a;
+    }
+    .description {
+      font-family: sans-serif;
+      font-size: 16px;
+      fill: #1a2f5a;
+    }
+    .icon {
+      fill: none;
+      stroke: #1a2f5a;
+      stroke-width: 2;
+    }
+  </style>
+
+  <!-- 矢印の先端定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a2f5a" />
+    </marker>
+  </defs>
+
+  <!-- データ収集ボックス -->
+  <rect x="200" y="20" width="400" height="100" class="box" />
+  <text x="400" y="60" class="step-title" text-anchor="middle">データ収集</text>
+  <text x="400" y="90" class="description" text-anchor="middle">(欠損補完、正規化など)</text>
+  <!-- データ収集アイコン - 洗練されたドキュメントとデータシンボル -->
+  <rect x="275" y="45" width="30" height="40" rx="2" ry="2" class="icon" />
+  <path d="M275 45 L305 45 L305 85 L275 85 Z" class="icon" fill-opacity="0" />
+  <path d="M280 60 L300 60 M280 70 L295 70 M280 80 L290 80" class="icon" />
+  <circle cx="310" cy="55" r="3" class="icon" fill="#1a2f5a" />
+  <circle cx="310" cy="65" r="3" class="icon" fill="#1a2f5a" />
+  <circle cx="310" cy="75" r="3" class="icon" fill="#1a2f5a" />
+
+  <!-- 矢印1 -->
+  <line x1="400" y1="120" x2="400" y2="170" class="arrow" />
+
+  <!-- データ分割ボックス -->
+  <rect x="200" y="170" width="400" height="100" class="box" />
+  <text x="400" y="210" class="step-title" text-anchor="middle">データ分割</text>
+  <text x="400" y="240" class="description" text-anchor="middle">(学習用/テスト用)</text>
+  <!-- データ分割アイコン - モダンなデータ分割表現 -->
+  <rect x="275" y="195" width="40" height="40" rx="3" ry="3" class="icon" />
+  <path d="M275 215 L315 215" class="icon" stroke-width="2.5" />
+  <path d="M295 195 L295 235" class="icon" stroke-width="2.5" />
+  <circle cx="295" cy="215" r="4" fill="#1a2f5a" />
+  <path d="M285 205 L305 205 M285 225 L305 225" class="icon" stroke-dasharray="2,2" />
+
+  <!-- 矢印2 -->
+  <line x1="400" y1="270" x2="400" y2="320" class="arrow" />
+
+  <!-- モデル定義ボックス -->
+  <rect x="200" y="320" width="400" height="100" class="box" />
+  <text x="400" y="360" class="step-title" text-anchor="middle">モデル定義</text>
+  <text x="400" y="390" class="description" text-anchor="middle">(アルゴリズム選定)</text>
+  <!-- モデル定義アイコン - スタイリッシュな電球 -->
+  <circle cx="285" cy="360" r="20" class="icon" />
+  <path d="M285 350 Q285 340, 277 338 Q270 336, 270 345 Q270 352, 280 358" class="icon" fill="none" />
+  <path d="M285 350 Q285 340, 293 338 Q300 336, 300 345 Q300 352, 290 358" class="icon" fill="none" />
+  <path d="M280 375 L290 375" class="icon" />
+  <path d="M284 380 L286 380" class="icon" />
+  <path d="M278 355 C280 365, 290 365, 292 355" class="icon" stroke-width="1.5" />
+
+  <!-- 学習フェーズの区切り線とラベル -->
+  <line x1="50" y1="470" x2="750" y2="470" class="divider" />
+  <text x="400" y="455" class="title" text-anchor="middle">学習フェーズ</text>
+
+  <!-- モデル集合ボックス -->
+  <rect x="200" y="520" width="400" height="100" class="box" />
+  <text x="400" y="560" class="step-title" text-anchor="middle">モデル集合</text>
+  <text x="400" y="590" class="description" text-anchor="middle">(アルゴリズム選定)</text>
+  <!-- モデル集合アイコン - 洗練されたパズルピース -->
+  <path d="M275 550 C275 545, 280 545, 285 545 L285 535 C285 530, 290 530, 295 535 C300 530, 305 530, 305 535 L305 545 C310 545, 315 545, 315 550 L315 570 C315 575, 310 575, 305 575 C305 580, 300 585, 295 580 C290 585, 285 580, 285 575 C280 575, 275 575, 275 570 Z" class="icon" />
+  <circle cx="295" cy="555" r="6" class="icon" fill-opacity="0" />
+
+  <!-- 矢印3 -->
+  <line x1="400" y1="620" x2="400" y2="670" class="arrow" />
+
+  <!-- モデル学習ボックス -->
+  <rect x="200" y="670" width="400" height="100" class="box" />
+  <text x="400" y="710" class="step-title" text-anchor="middle">モデル学習</text>
+  <text x="400" y="740" class="description" text-anchor="middle">(model.fit(X_train,train))</text>
+  <!-- モデル学習アイコン - 精巧な歯車 -->
+  <circle cx="285" cy="710" r="22" class="icon" />
+  <circle cx="285" cy="710" r="8" class="icon" />
+  <path d="M285 688 L285 680 M298 693 L304 687 M307 710 L315 710 M298 727 L304 733 M285 732 L285 740 M272 727 L266 733 M263 710 L255 710 M272 693 L266 687" class="icon" stroke-width="2" />
+  <path d="M285 688 L288 693 L282 693 Z" class="icon" fill="#1a2f5a" />
+  <path d="M307 710 L302 713 L302 707 Z" class="icon" fill="#1a2f5a" />
+  <path d="M285 732 L288 727 L282 727 Z" class="icon" fill="#1a2f5a" />
+  <path d="M263 710 L268 713 L268 707 Z" class="icon" fill="#1a2f5a" />
+
+  <!-- 矢印4 -->
+  <line x1="400" y1="770" x2="400" y2="820" class="arrow" />
+
+  <!-- モデル保存ボックス -->
+  <rect x="200" y="820" width="400" height="100" class="box" />
+  <text x="400" y="860" class="step-title" text-anchor="middle">モデル保存</text>
+  <text x="400" y="890" class="description" text-anchor="middle">(pkl, h5, ptなどの形式)</text>
+  <!-- モデル保存アイコン - スタイリッシュなファイル -->
+  <path d="M270 845 L295 845 L305 855 L305 885 L270 885 Z" class="icon" />
+  <path d="M295 845 L295 855 L305 855" class="icon" />
+  <path d="M280 865 L295 865 M280 875 L295 875" class="icon" />
+  <path d="M275 850 L290 850" class="icon" stroke-dasharray="2,1" />
+
+  <!-- 推論フェーズの区切り線とラベル -->
+  <line x1="50" y1="970" x2="750" y2="970" class="divider" />
+  <text x="400" y="955" class="title" text-anchor="middle">推論フェーズ</text>
+
+  <!-- モデル読み込みボックス -->
+  <rect x="200" y="1020" width="400" height="100" class="box" />
+  <text x="400" y="1060" class="step-title" text-anchor="middle">モデル読み込み</text>
+  <text x="400" y="1090" class="description" text-anchor="middle">joblib.load()</text>
+  <!-- モデル読み込みアイコン - モダンなフォルダ -->
+  <path d="M270 1045 L290 1045 L295 1055 L310 1055 L315 1060 L315 1085 L265 1085 L265 1050 Z" class="icon" />
+  <path d="M270 1045 L265 1050" class="icon" />
+  <path d="M290 1045 L295 1055 L310 1055 L315 1060" class="icon" />
+  <path d="M275 1065 L305 1065" class="icon" stroke-dasharray="2,2" />
+  <path d="M275 1075 L305 1075" class="icon" stroke-dasharray="2,2" />
+
+  <!-- 矢印5 -->
+  <line x1="400" y1="1120" x2="400" y2="1170" class="arrow" />
+
+  <!-- 入力データ準備ボックス -->
+  <rect x="200" y="1170" width="400" height="100" class="box" />
+  <text x="400" y="1210" class="step-title" text-anchor="middle">入力データ準備</text>
+  <text x="400" y="1240" class="description" text-anchor="middle">(推論対象)</text>
+  <!-- 入力データ準備アイコン - おしゃれなドキュメント -->
+  <path d="M270 1190 L300 1190 L310 1200 L310 1240 L270 1240 Z" class="icon" />
+  <path d="M300 1190 L300 1200 L310 1200" class="icon" />
+  <path d="M280 1210 L300 1210 M280 1220 L300 1220 M280 1230 L290 1230" class="icon" />
+  <circle cx="305" cy="1230" r="2" fill="#1a2f5a" />
+  <circle cx="300" cy="1230" r="2" fill="#1a2f5a" />
+  <circle cx="295" cy="1230" r="2" fill="#1a2f5a" />
+
+  <!-- 矢印6 -->
+  <line x1="400" y1="1270" x2="400" y2="1320" class="arrow" />
+
+  <!-- 推論実行ボックス -->
+  <rect x="200" y="1320" width="400" height="100" class="box" />
+  <text x="400" y="1360" class="step-title" text-anchor="middle">推論実行</text>
+  <text x="400" y="1390" class="description" text-anchor="middle">(model.predict(X_test))</text>
+  <!-- 推論実行アイコン - スタイリッシュなドット -->
+  <circle cx="285" cy="1360" r="20" class="icon" fill-opacity="0" />
+  <circle cx="275" cy="1360" r="4" fill="#1a2f5a" />
+  <circle cx="285" cy="1360" r="4" fill="#1a2f5a" />
+  <circle cx="295" cy="1360" r="4" fill="#1a2f5a" />
+  <path d="M275 1360 C273 1350, 285 1345, 295 1350" class="icon" stroke-width="1" stroke-dasharray="1,1" />
+  <path d="M275 1360 C273 1370, 285 1375, 295 1370" class="icon" stroke-width="1" stroke-dasharray="1,1" />
+  
+  <!-- 矢印7 -->
+  <line x1="400" y1="1420" x2="400" y2="1470" class="arrow" />
+  
+  <!-- 出力処理ボックス -->
+  <rect x="200" y="1470" width="400" height="100" class="box" />
+  <text x="400" y="1510" class="step-title" text-anchor="middle">出力処理</text>
+  <text x="400" y="1540" class="description" text-anchor="middle">(分類結果、数値など)</text>
+  <!-- 出力処理アイコン - データ出力表現 -->
+  <path d="M270 1500 L300 1500 L300 1520 L270 1520 Z" class="icon" />
+  <path d="M300 1500 L310 1510 L310 1530 L280 1530 L280 1520" class="icon" />
+  <path d="M280 1510 L290 1510" class="icon" />
+  <path d="M290 1515 L300 1515" class="icon" stroke-dasharray="2,1" />
+  <path d="M285 1525 L305 1525" class="icon" />
+</svg>
