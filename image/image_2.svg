@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="100%" height="100%" fill="white" />
+  <!-- スタイル定義 -->
+  <style>
+    .box {
+      fill: white;
+      stroke: #1a3163;
+      stroke-width: 2;
+      rx: 10;
+      ry: 10;
+    }
+    .arrow {
+      stroke: #1a3163;
+      stroke-width: 2;
+      marker-end: url(#arrowhead);
+    }
+    .divider {
+      stroke: #1a3163;
+      stroke-width: 2;
+    }
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #1a3163;
+      text-anchor: middle;
+    }
+    .subtitle {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #1a3163;
+      text-anchor: middle;
+    }
+    .phase {
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      fill: #1a3163;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- 矢印のマーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a3163" />
+    </marker>
+  </defs>
+
+  <!-- 全ての箱とアイコンを中央揃えにし、横幅を統一 -->
+  
+  <!-- ボックス1: ユーザーの質問 -->
+  <rect x="200" y="50" width="400" height="80" class="box"/>
+  
+  <!-- アイコン: ユーザーの質問 -->
+  <g transform="translate(250, 75) scale(0.045)">
+    <path d="M448 96v320h32l32-64h32v256h-32l-32-64h-32v64H0v-64h32l32 64h32V352h-32l-32 64h-32V96h448z" fill="#1a3163"/>
+    <path d="M192 416v175.2c0 .1 64 .8 64 0V416h-64z" fill="#1a3163"/>
+    <path d="M224 288c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64z" fill="#1a3163"/>
+  </g>
+  
+  <!-- テキスト: ユーザーの質問 -->
+  <text x="400" y="95" class="title">ユーザーの質問</text>
+  
+  <!-- 矢印1 -->
+  <line x1="400" y1="130" x2="400" y2="170" class="arrow"/>
+  
+  <!-- ボックス2: Retriever -->
+  <rect x="200" y="170" width="400" height="100" class="box"/>
+  
+  <!-- アイコン: Retriever -->
+  <g transform="translate(250, 210) scale(0.045)">
+    <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34z" fill="#1a3163"/>
+  </g>
+  
+  <!-- テキスト: Retriever -->
+  <text x="400" y="210" class="title">Retriever</text>
+  <text x="400" y="235" class="subtitle">検索対象: 外部ドキュメント</text>
+  <text x="400" y="255" class="subtitle">（例：FAQ, ナレッジベース）</text>
+  
+  <!-- 矢印2 -->
+  <line x1="400" y1="270" x2="400" y2="310" class="arrow"/>
+  
+  <!-- ボックス3: Top-k関連文書 -->
+  <rect x="200" y="310" width="400" height="80" class="box"/>
+  
+  <!-- アイコン: Top-k関連文書 -->
+  <g transform="translate(250, 335) scale(0.045)">
+    <path d="M128 184c0-30.879 25.122-56 56-56h136V56c0-13.255-10.745-24-24-24h-80.61C204.306 12.89 183.637 0 160 0s-44.306 12.89-55.39 32H24C10.745 32 0 42.745 0 56v336c0 13.255 10.745 24 24 24h104V184zm32-144c13.255 0 24 10.745 24 24s-10.745 24-24 24-24-10.745-24-24 10.745-24 24-24zm184 248h104v200c0 13.255-10.745 24-24 24H184c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h136v88c0 13.255 10.745 24 24 24zm104-24H288v-64h176v64zm-232 72c-13.25 0-24 10.74-24 24 0 13.25 10.75 24 24 24h96c13.25 0 24-10.75 24-24 0-13.26-10.75-24-24-24h-96zm0 96c-13.25 0-24 10.74-24 24 0 13.25 10.75 24 24 24h96c13.25 0 24-10.75 24-24 0-13.26-10.75-24-24-24h-96z" fill="#1a3163"/>
+  </g>
+  
+  <!-- テキスト: Top-k関連文書 -->
+  <text x="400" y="360" class="title">Top-k関連文書</text>
+  
+  <!-- 矢印3 -->
+  <line x1="400" y1="390" x2="400" y2="430" class="arrow"/>
+  
+  <!-- ボックス4: Generator(LLM) -->
+  <rect x="200" y="430" width="400" height="100" class="box"/>
+  
+  <!-- アイコン: Generator -->
+  <g transform="translate(250, 470) scale(0.045)">
+    <path d="M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 64c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8v-16zm256 304c0 4.42-3.58 8-8 8h-80c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16zm0-200v96c0 8.84-7.16 16-16 16H80c-8.84 0-16-7.16-16-16v-96c0-8.84 7.16-16 16-16h224c8.84 0 16 7.16 16 16z" fill="#1a3163"/>
+  </g>
+  
+  <!-- テキスト: Generator(LLM) -->
+  <text x="400" y="470" class="title">Generator（LLM）</text>
+  <text x="400" y="495" class="subtitle">入力: 質問 + 関連文書</text>
+  
+  <!-- 矢印4 -->
+  <line x1="400" y1="530" x2="400" y2="570" class="arrow"/>
+  
+  <!-- ボックス5: 最終回答 -->
+  <rect x="200" y="570" width="400" height="80" class="box"/>
+  
+  <!-- アイコン: 最終回答 -->
+  <g transform="translate(250, 605) scale(0.045)">
+    <path d="M432 416H112c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h320c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16zm0-128H112c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h320c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16zm0-128H112c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h320c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16z" fill="#1a3163"/>
+  </g>
+  
+  <!-- テキスト: 最終回答 -->
+  <text x="400" y="620" class="title">最終回答</text>
+</svg>
