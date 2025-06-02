@@ -36,7 +36,7 @@
   
   <!-- ヘッダーテキスト -->
   <text x="70" y="85" font-family="Segoe UI, sans-serif" font-size="32" font-weight="600" fill="#1e40af">🚀 AI開発のメリット</text>
-  <text x="70" y="115" font-family="Segoe UI, sans-serif" font-size="18" fill="#64748b">ChatGPTなど、AIツールがある環境で、独自開発の必要性と強みについて</text>
+  <text x="70" y="115" font-family="Segoe UI, sans-serif" font-size="18" fill="#64748b">ChatGPTなど、AIツールがある環境で、独自AI開発の必要性と強みについて</text>
   
   <!-- 3つの軸セクション -->
   <rect x="40" y="200" width="1120" height="200" rx="12" fill="white" filter="url(#shadow)" stroke="#e2e8f0"/>
