@@ -1,7 +1,7 @@
 # NLP(自然言語処理)モデル一覧
 
 主なモデルファミリーと代表例。  
-「Encoder-only」「Decoder-only」「Encoder–Decoder (Seq2Seq)」の３種類。
+「Encoder-only」「Decoder-only」「Encoder–Decoder (Seq2Seq)」の３種類。  
 どのタスクに対し、どのモデルが適しているか。
 
 ---
