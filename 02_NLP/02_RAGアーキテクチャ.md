@@ -6,7 +6,7 @@ LLM単体では学習時点までの知識しか持たないため、動的情�
 
 # 2. アーキテクチャ構成
 
-![RAG構成図](../images/images/image_2.svg)
+![RAG構成図](../images/image_2.svg)
 
 # 3. 処理ステップ
 
