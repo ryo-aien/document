@@ -1,5 +1,5 @@
 ## CPUとGPUの処理関係
-![GPU](image/image_4.svg)
+![GPU](../images/image_4.svg)
 
 ## CUDAの基本実行モデルフェーズ
 
@@ -16,4 +16,4 @@ GPUで大量のスレッドが並列に計算を実行している間、CPUは�
 計算が完了したらGPUからCPUへ結果をコピーし、CPUが後処理や保存を行います。
 
 
-![GPU](image/image_5.svg)
+![GPU](../images/image_5.svg)
