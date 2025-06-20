@@ -271,12 +271,12 @@
   <!-- Bottom Summary -->
   <rect x="50" y="670" width="350" height="25" rx="5" fill="#e3f2fd" stroke="#1976d2"/>
   <text x="225" y="687" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">
-    💡 軽量・高速・マルチタスク向け
+     軽量・高速・マルチタスク向け
   </text>
   
   <rect x="500" y="670" width="350" height="25" rx="5" fill="#ffe0b2" stroke="#f57c00"/>
   <text x="675" y="687" text-anchor="middle" font-size="13" font-weight="bold" fill="#e65100">
-    🚀 高性能・専門特化・商用展開向け
+     高性能・専門特化・商用展開向け
   </text>
   
   <!-- Arrow markers -->
