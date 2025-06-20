@@ -76,3 +76,13 @@ lora_config = LoraConfig(
 
 # LoRAモデルの構築
 model = get_peft_model(model, lora_config)
+```
+
+| 引数名              | 意味                                 |
+| ---------------- | ---------------------------------- |
+| r              | 低ランク次元数。学習パラメータ量を決める主な要素           |
+| lora_alpha     | スケーリング係数。出力の安定化のために使う              |
+| target_modules | LoRAを適用する層（通常は `q_proj`, `v_proj`） |
+| lora_dropout  | Dropoutによる正則化（訓練時のみ有効）             |
+| bias           | バイアス項の扱い方（多くの場合 `"none"` で問題なし）    |
+| task_type      | モデルのタスク種別。言語生成系は `CAUSAL_LM`       |
