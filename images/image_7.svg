@@ -13,11 +13,11 @@
   <!-- LoRA Section -->
   <g id="lora-section">
     <!-- Section Title -->
-    <rect x="20" y="70" width="410" height="40" rx="5" fill="#e3f2fd"/>
+    <rect x="20" y="70" width="410" height="50" rx="5" fill="#e3f2fd"/>
     <text x="225" y="95" text-anchor="middle" font-size="22" font-weight="bold" fill="#1565c0">
       LoRA
     </text>
-    <text x="225" y="105" text-anchor="middle" font-size="12" fill="#666">
+    <text x="225" y="115" text-anchor="middle" font-size="12" fill="#666">
       Low-Rank Adaptation（低ランク適応）
     </text>
     
@@ -144,11 +144,11 @@
   <!-- Fine-Tuning Section -->
   <g id="finetuning-section">
     <!-- Section Title -->
-    <rect x="470" y="70" width="410" height="40" rx="5" fill="#ffe0b2"/>
+    <rect x="470" y="70" width="410" height="50" rx="5" fill="#ffe0b2"/>
     <text x="675" y="95" text-anchor="middle" font-size="22" font-weight="bold" fill="#e65100">
       ファインチューニング
     </text>
-    <text x="675" y="105" text-anchor="middle" font-size="12" fill="#666">
+    <text x="675" y="115" text-anchor="middle" font-size="12" fill="#666">
       Full Fine-Tuning（全体調整）
     </text>
     
