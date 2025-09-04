@@ -21,3 +21,4 @@
 |                      | Claude API Documentation          | Claude API のエンドポイント詳細                                                    | [Postman Docs](https://www.postman.com/postman/anthropic-apis/documentation/dhus72s/claude-api?utm_source=chatgpt.com)   |
 |                      | Claude Code Best Practices        | Claude Code の高度な実装例やベストプラクティス                                            | [Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices?utm_source=chatgpt.com)                |
 |                      | Claude（Wikipedia）                 | Claude モデルシリーズの概要とリリース履歴                                                 | [Wikipedia](https://en.wikipedia.org/wiki/Claude_%28language_model%29?utm_source=chatgpt.com)                            |
+|**NVIDIA** |NVIDIA AI Developer Docs| NVIDIA が提供する AI プラットフォームとツール群の公式ドキュメント。GPU アクセラレーション、モデル最適化、推論、生成 AI、HPC などの幅広いテーマを網羅。 | [Docs](https://developer.nvidia.com/topics/ai/) |
