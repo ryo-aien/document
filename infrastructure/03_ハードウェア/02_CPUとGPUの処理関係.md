@@ -1,5 +1,5 @@
 ## CPUとGPUの処理関係
-![GPU](../images/image_4.svg)
+![GPU](../../assets/images/image_4.svg)
 
 ## CUDAの基本実行モデルフェーズ
 
@@ -18,4 +18,4 @@ GPUで大量のスレッドが並列に計算を実行している間、CPUは�
 
 ## GPUの仕組み・構造
 
-![GPU](../images/image_5.svg)
+![GPU](../../assets/images/image_5.svg)
