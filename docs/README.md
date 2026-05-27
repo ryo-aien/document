@@ -39,14 +39,6 @@
 - `gpt5-coding-cheatsheet.md` - GPT-5活用のコーディングチートシート
 - `08_fine-tuning.ipynb` - ファインチューニングの実装例（Jupyter Notebook）
 
-### business/ - ビジネス
-AI導入のビジネス側面に関するドキュメント
-
-#### 06_ビジネス/
-- `ml-adoption-report-2025.md` - 機械学習技術の実用化動向レポート（2025年版）
-- `ai-subsidies-kanto.md` - AI導入に関する補助金情報（関東地域）
-- `04_AI導入提案テンプレート.pptx` - AI導入提案用プレゼンテーション
-
 ### experiments/ - 実験・検証
 各種検証実験の結果と分析
 
