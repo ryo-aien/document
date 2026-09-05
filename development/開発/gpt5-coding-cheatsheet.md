@@ -87,7 +87,7 @@ GPT-5 はデフォルトで文脈収集に熱心ですが、**プロンプトで
 
 ---
 
-📘 さらに詳しくは以下を参照してください:
+さらに詳しくは以下を参照してください:
 
 * [GPT-5 プロンプト設計ガイド](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)
 * [プロンプト最適化ツール](https://platform.openai.com/chat/edit?optimize=true)

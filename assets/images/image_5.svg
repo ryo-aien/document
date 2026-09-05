@@ -183,7 +183,7 @@
     <rect x="490" y="300" width="360" height="40" fill="linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%)" rx="16"/>
     <rect x="490" y="324" width="360" height="16" fill="linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%)"/>
     
-    <text x="510" y="325" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="white">🧠 実例：機械学習（行列乗算）</text>
+    <text x="510" y="325" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="white">実例：機械学習（行列乗算）</text>
     
     <!-- Matrix visualization -->
     <g id="matrix-example">
@@ -214,7 +214,7 @@
     
     <!-- Threading strategy -->
     <g id="threading-strategy">
-      <text x="510" y="470" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#8b5cf6">📋 スレッド設計：</text>
+      <text x="510" y="470" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#8b5cf6">スレッド設計：</text>
       
       <g id="strategy-items">
         <circle cx="520" cy="490" r="3" fill="#10b981"/>
@@ -233,7 +233,7 @@
     
     <!-- Performance highlight -->
     <rect x="510" y="570" width="320" height="35" fill="linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%)" stroke="rgba(139, 92, 246, 0.3)" stroke-width="1" rx="8"/>
-    <text x="525" y="590" font-family="SF Pro Display, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6">⚡ 並列度：4,194,304スレッドが同時実行</text>
+    <text x="525" y="590" font-family="SF Pro Display, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6">並列度：4,194,304スレッドが同時実行</text>
   </g>
   
   <!-- Modern Legend -->
